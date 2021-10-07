@@ -69,6 +69,9 @@ h1{
     .col-lg-1{
         width: 6.33%;
         margin: 0 1%;
+        /* We could have use this
+        width: calc(100% - 20px);
+        */
     }
     .col-lg-2{
         width: 14.66%;
