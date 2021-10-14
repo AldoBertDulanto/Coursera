@@ -363,7 +363,7 @@ function makeMultiplier (multiplier){
 var doubleAll = makeMultiplier(2);
 console.log(doubleAll(10));
 
-//Fake Namespaces -> Lecture 52
+//Fake Namespaces -> Lecture 52 -> IIFE
 (function (){
     console.log("Hello Coursera!");
 })(); //esos ultimos () envoca la función automaticamente, y puedo pasarle parametros
