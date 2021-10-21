@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TITULO</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <h1 id="title">Semana 5</h1>
+    <p>
+        Say hello to
+        <!--las opciones on... permiten ejecutar funciones de javascript-->
+        <input id="name" type="text"><!--onblur="sayHello();", cuando pongo algo en el input y clickeo en otro lado-->
+        <!--onclick="sayHello();" ejecuta la función del javaScript, sin embargo en nuestro javaScript, ya 
+        existe un query selector con un onclick apuntando al boton, por lo cual no hace falta ejecutar
+        esa función onclick="sayHello()"-->
+        <button>Say it!</button> 
+    </p>
+    
+    <div id="content"></div>
+
+    <!--Es mejor ponerlo aca, para que procese toda la pagina para despues hacer luego la programación-->
+    <!--<script src="js/script.js"></script>-->
+</body>
+</html>
